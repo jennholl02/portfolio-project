@@ -7,11 +7,16 @@
   height: 75px;
   line-height: 60px;
   border-radius: 50%;
+  box-shadow: 0 5px 10px #2ca4bf;
 }
 
 .nav-item {
   font-family: "Questrial", sans-serif;
   font-size: 18px;
+}
+
+.btn-primary {
+  border-radius: 25px;
 }
 
 .hero {
