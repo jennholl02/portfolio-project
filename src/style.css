@@ -1,0 +1,19 @@
+.navbar-brand {
+  font-family: "Cookie", cursive;
+  font-size: 42px;
+  text-align: center;
+  background: #2ca4bf;
+  width: 75px;
+  height: 75px;
+  line-height: 60px;
+  border-radius: 50%;
+}
+
+.nav-item {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+}
+
+.hero {
+  background: #f8ed86;
+}
