@@ -1,3 +1,14 @@
+:root {
+  --secondary-yellow: #f8ed86;
+  --complementary-mint: #a5e9db;
+  --primary-teal: #2ca4bf;
+  --tertiary-blue: #415b90;
+
+  --main-font: "Alegreya", serif;
+  --secondary-font: "Questrial", sans-serif;
+  --header-font: "Cookie", cursive;
+}
+
 .navbar-brand {
   font-family: "Cookie", cursive;
   font-size: 42px;
@@ -21,4 +32,32 @@
 
 .hero {
   background: #f8ed86;
+}
+
+.fab-1 {
+  width: 45px;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.fab,
+.fas {
+  background: #2ca4bf;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px #2ca4bf;
+  text-align: center;
+}
+
+.home-icon {
+  background: #2ca4bf;
+  width: 75px;
+  height: 75px;
+  line-height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px #2ca4bf;
 }
