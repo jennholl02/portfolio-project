@@ -25,6 +25,7 @@
   font-family: var(--secondary-font);
   font-size: 20px;
   transition-delay: 10ms;
+  transition: ease-in-out;
 }
 
 .nav-item:hover {
@@ -37,10 +38,57 @@
 
 .btn-primary {
   border-radius: 25px;
+  text-align: center;
+  background-color: var(--primary-teal);
+  font-family: var(--secondary-font);
+  box-shadow: 0 5px 10px var(--primary-teal);
+  border: solid var(--primary-teal);
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-yellow);
+  transition-delay: 10ms;
+  transition: ease-in-out;
+  color: black;
+  font-weight: bold;
+  border: solid var(--secondary-yellow);
+  box-shadow: 0 5px 10px var(--secondary-yellow);
+  font-size: 30px;
+  border-radius: 35px;
+  text-align: center;
 }
 
 .hero {
-  background: #f8ed86;
+  background-color: var(--secondary-yellow);
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+}
+
+.hello {
+  font-family: var(--secondary-font);
+}
+
+.header-name {
+  font-family: var(--header-font);
+  font-size: 136px;
+}
+
+.title {
+  font-size: 28px;
+  font-family: var(--secondary-font);
+}
+
+.inspired {
+  font-family: var(--header-font);
+  font-size: 48px;
+  padding-top: 35px;
+}
+
+.knowledge {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
 }
 
 .fab-1 {
