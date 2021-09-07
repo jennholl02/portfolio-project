@@ -22,8 +22,17 @@
 }
 
 .nav-item {
-  font-family: "Questrial", sans-serif;
-  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  transition-delay: 10ms;
+}
+
+.nav-item:hover {
+  background-color: var(--secondary-yellow);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 50%;
+  text-align: center;
 }
 
 .btn-primary {
