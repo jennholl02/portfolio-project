@@ -12,7 +12,6 @@
 body {
   background-image: url(/images/main-background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .navbar-brand {
@@ -121,16 +120,16 @@ body {
   padding-top: 15px;
 }
 
-.fab-1,
-.fab {
+.fab-2,
+.fab,
+.fas {
   width: 45px;
   display: block;
   margin: 0 auto;
   padding-top: 15px;
 }
 
-.fab,
-.fas {
+.fab-1 {
   background: #2ca4bf;
   width: 75px;
   height: 75px;
@@ -146,4 +145,48 @@ body {
   line-height: 75px;
   border-radius: 50%;
   box-shadow: 0 5px 10px #2ca4bf;
+}
+
+.social-connect {
+  background-color: var(--secondary-yellow);
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+  color: var(--tertiary-blue);
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.connect {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-envelope-square {
+  font-size: 45px;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram-square:hover,
+.fa-envelope-square:hover {
+  color: var(--primary-teal);
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: initial;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  font-family: var(--secondary-font);
+  font-size: 12px;
+  color: var(--tertiary-blue);
 }
