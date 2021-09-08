@@ -9,6 +9,12 @@
   --header-font: "Cookie", cursive;
 }
 
+body {
+  background-image: url(/images/main-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .navbar-brand {
   font-family: "Cookie", cursive;
   font-size: 42px;
@@ -19,6 +25,22 @@
   line-height: 60px;
   border-radius: 50%;
   box-shadow: 0 5px 10px #2ca4bf;
+}
+
+.navbar .nav-item .nav-link {
+  color: var(--tertiary-blue);
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: var(--tertiary-blue);
+}
+
+.navbar .navbar-brand {
+  color: whitesmoke;
+}
+
+.navbar .navbar-brand:hover {
+  color: whitesmoke;
 }
 
 .nav-item {
@@ -43,7 +65,8 @@
   font-family: var(--secondary-font);
   box-shadow: 0 5px 10px var(--primary-teal);
   border: solid var(--primary-teal);
-  color: black;
+  color: white;
+  margin-bottom: 15px;
 }
 
 .btn-primary:hover {
@@ -52,9 +75,8 @@
   transition: ease-in-out;
   color: black;
   font-weight: bold;
-  border: solid var(--secondary-yellow);
-  box-shadow: 0 5px 10px var(--secondary-yellow);
-  font-size: 30px;
+  border: solid var(--primary-teal);
+  box-shadow: 0 5px 10px var(--primary-teal);
   border-radius: 35px;
   text-align: center;
 }
@@ -63,6 +85,7 @@
   background-color: var(--secondary-yellow);
   border: double var(--tertiary-blue);
   border-width: 10px;
+  color: var(--tertiary-blue);
 }
 
 .hello {
@@ -72,6 +95,7 @@
 .header-name {
   font-family: var(--header-font);
   font-size: 136px;
+  color: var(--tertiary-blue);
 }
 
 .title {
@@ -87,13 +111,19 @@
 
 .knowledge {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 45px;
   padding-top: 15px;
 }
 
-.fab-1 {
+.knowledge-2 {
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 15px;
+}
+
+.fab-1,
+.fab {
   width: 45px;
-  color: black;
   display: block;
   margin: 0 auto;
   padding-top: 15px;
@@ -104,7 +134,6 @@
   background: #2ca4bf;
   width: 75px;
   height: 75px;
-  line-height: 75px;
   border-radius: 50%;
   box-shadow: 0 5px 10px #2ca4bf;
   text-align: center;
@@ -114,7 +143,7 @@
   background: #2ca4bf;
   width: 75px;
   height: 75px;
-  line-height: 60px;
+  line-height: 75px;
   border-radius: 50%;
   box-shadow: 0 5px 10px #2ca4bf;
 }
