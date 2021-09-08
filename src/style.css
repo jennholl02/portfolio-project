@@ -12,6 +12,7 @@
 body {
   background-image: url(/images/main-background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar-brand {
@@ -66,22 +67,23 @@ body {
   border: solid var(--primary-teal);
   color: white;
   margin-bottom: 15px;
+  text-transform: none;
+  text-decoration: none;
 }
 
 .btn-primary:hover {
   background-color: var(--secondary-yellow);
   transition-delay: 10ms;
   transition: ease-in-out;
-  color: black;
+  color: var(--tertiary-blue);
   font-weight: bold;
-  border: solid var(--primary-teal);
-  box-shadow: 0 5px 10px var(--primary-teal);
+  border: solid var(--tertiary-blue);
+  box-shadow: none;
   border-radius: 35px;
   text-align: center;
 }
 
-.hero,
-.about {
+.hero {
   background-color: var(--secondary-yellow);
   border: double var(--tertiary-blue);
   border-width: 10px;
@@ -166,6 +168,8 @@ body {
 .fa-instagram-square,
 .fa-envelope-square {
   font-size: 45px;
+  color: var(--primary-teal);
+  text-decoration: none;
 }
 
 .fa-facebook-square:hover,
@@ -192,9 +196,31 @@ body {
   color: var(--tertiary-blue);
 }
 
+.about {
+  background-color: var(--secondary-yellow);
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+  color: var(--tertiary-blue);
+  margin: 45px 30px 30px 30px;
+  padding: 30px;
+}
+
+.about-header {
+  font-family: var(--secondary-font);
+  font-size: 48px;
+  text-align: center;
+  padding-top: 75%;
+}
 .about-photo {
-  width: 50%;
-  border: 5px solid;
-  margin: 20px;
+  width: 85%;
+  margin-top: 15px;
+  margin-left: 30px;
+  border: 5px solid var(--tertiary-blue);
   border-radius: 5%;
+  box-shadow: 0 5px 5px var(--tertiary-blue);
+}
+
+.about-paragraph {
+  font-family: var(--secondary-font);
+  font-size: 17px;
 }
