@@ -80,7 +80,8 @@ body {
   text-align: center;
 }
 
-.hero {
+.hero,
+.about {
   background-color: var(--secondary-yellow);
   border: double var(--tertiary-blue);
   border-width: 10px;
@@ -189,4 +190,11 @@ body {
   font-family: var(--secondary-font);
   font-size: 12px;
   color: var(--tertiary-blue);
+}
+
+.about-photo {
+  width: 50%;
+  border: 5px solid;
+  margin: 20px;
+  border-radius: 5%;
 }
