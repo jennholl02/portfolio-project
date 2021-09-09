@@ -201,8 +201,8 @@ body {
   border: double var(--tertiary-blue);
   border-width: 10px;
   color: var(--tertiary-blue);
-  margin: 45px 30px 30px 30px;
   padding: 30px;
+  margin: 25px;
 }
 
 .about-header {
@@ -212,7 +212,7 @@ body {
   padding-top: 75%;
 }
 .about-photo {
-  width: 85%;
+  width: 75%;
   margin-top: 15px;
   margin-left: 30px;
   border: 5px solid var(--tertiary-blue);
@@ -223,4 +223,32 @@ body {
 .about-paragraph {
   font-family: var(--secondary-font);
   font-size: 17px;
+}
+
+.skills {
+  padding: 25px 25px 25px 25px;
+}
+
+.skills-individual {
+  border: double var(--primary-teal);
+  margin: 5px;
+  background: #e9eaeb;
+  padding-top: 25px;
+  margin: 25px 10px 25px 10px;
+}
+
+.skills-heading {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 22px;
+  color: var(--tertiary-blue);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.skills-description {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  color: var(--tertiary-blue);
 }
