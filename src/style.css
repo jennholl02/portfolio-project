@@ -150,6 +150,11 @@ body {
   box-shadow: 0 5px 10px #2ca4bf;
 }
 
+.icon-name {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+}
+
 .social-connect {
   background-color: var(--secondary-yellow);
   border: double var(--tertiary-blue);
@@ -159,6 +164,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .connect {
   font-family: var(--main-font);
   font-size: 42px;
@@ -223,6 +229,21 @@ body {
 .about-paragraph {
   font-family: var(--secondary-font);
   font-size: 17px;
+}
+
+.icon-container {
+  background-color: var(--secondary-yellow);
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-box {
+  border: solid var(--primary-teal);
+  background: #e9eaeb;
+  margin-bottom: 25px;
 }
 
 .skills {
