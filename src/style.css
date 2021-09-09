@@ -303,3 +303,35 @@ body {
   background: whitesmoke;
   border: 2px solid var(--primary-teal);
 }
+
+.completed-projects {
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+  background: var(--secondary-yellow);
+  padding: 25px;
+}
+
+.project-image-1,
+.project-image-2,
+.project-image-3 {
+  width: 70%;
+  border-radius: 8%;
+  border: 2px solid var(--tertiary-blue);
+}
+
+.weather2,
+.weather-original,
+.hiking-basics {
+  background: whitesmoke;
+  border: 4px solid var(--primary-teal);
+  padding: 15px;
+  text-align: center;
+  margin: 15px;
+}
+.weather2-summary {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  color: var(--tertiary-blue);
+  text-align: center;
+  padding-top: 60px;
+}
