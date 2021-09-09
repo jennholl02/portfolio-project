@@ -72,7 +72,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: var(--secondary-yellow);
+  background-color: whitesmoke;
   transition-delay: 10ms;
   transition: ease-in-out;
   color: var(--tertiary-blue);
@@ -160,14 +160,14 @@ body {
   padding-bottom: 20px;
 }
 .connect {
-  font-family: var(--secondary-font);
-  font-size: 36px;
+  font-family: var(--main-font);
+  font-size: 42px;
 }
 
 .fa-facebook-square,
 .fa-instagram-square,
 .fa-envelope-square {
-  font-size: 45px;
+  font-size: 55px;
   color: var(--primary-teal);
   text-decoration: none;
 }
@@ -202,12 +202,12 @@ body {
   border-width: 10px;
   color: var(--tertiary-blue);
   padding: 30px;
-  margin: 25px;
+  margin: 35px 5px 25px 0px;
 }
 
 .about-header {
-  font-family: var(--secondary-font);
-  font-size: 48px;
+  font-family: var(--main-font);
+  font-size: 52px;
   text-align: center;
   padding-top: 75%;
 }
@@ -226,11 +226,22 @@ body {
 }
 
 .skills {
-  padding: 25px 25px 25px 25px;
+  margin-top: 45px;
+  padding: 25px 10px 25px 10px;
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+  background: var(--secondary-yellow);
+}
+
+.skills-header {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 42px;
+  color: var(--tertiary-blue);
 }
 
 .skills-individual {
-  border: double var(--primary-teal);
+  border: solid var(--primary-teal);
   margin: 5px;
   background: #e9eaeb;
   padding-top: 25px;
