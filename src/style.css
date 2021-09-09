@@ -11,8 +11,9 @@
 
 body {
   background-image: url(/images/main-background.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-color: #e9eaeb;
 }
 
 .navbar-brand {
@@ -83,7 +84,8 @@ body {
   text-align: center;
 }
 
-.hero {
+.hero,
+.project-summary {
   background-color: var(--secondary-yellow);
   border: double var(--tertiary-blue);
   border-width: 10px;
@@ -160,9 +162,9 @@ body {
   border: double var(--tertiary-blue);
   border-width: 10px;
   color: var(--tertiary-blue);
-  margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 25px;
 }
 
 .connect {
@@ -237,7 +239,6 @@ body {
   border-width: 10px;
   margin-top: 50px;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .icon-box {
@@ -248,6 +249,7 @@ body {
 
 .skills {
   margin-top: 45px;
+  margin-bottom: 45px;
   padding: 25px 10px 25px 10px;
   border: double var(--tertiary-blue);
   border-width: 10px;
@@ -283,4 +285,21 @@ body {
   font-family: var(--secondary-font);
   font-size: 16px;
   color: var(--tertiary-blue);
+}
+
+.project-summary-header {
+  font-family: var(--main-font);
+  font-size: 48px;
+}
+
+.project-summary-description {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
+.project-summary-highlighted {
+  font-family: var(--header-font);
+  font-size: 46px;
+  background: whitesmoke;
+  border: 2px solid var(--primary-teal);
 }
