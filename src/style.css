@@ -290,6 +290,8 @@ body {
 .project-summary-header {
   font-family: var(--main-font);
   font-size: 48px;
+  text-align: center;
+  color: var(--tertiary-blue);
 }
 
 .project-summary-description {
@@ -300,8 +302,6 @@ body {
 .project-summary-highlighted {
   font-family: var(--header-font);
   font-size: 46px;
-  background: whitesmoke;
-  border: 2px solid var(--primary-teal);
 }
 
 .completed-projects {
@@ -328,7 +328,9 @@ body {
   text-align: center;
   margin: 15px;
 }
-.weather2-summary {
+.weather2-summary,
+.weather-summary,
+.hiking-summary {
   font-family: var(--secondary-font);
   font-size: 20px;
   color: var(--tertiary-blue);
