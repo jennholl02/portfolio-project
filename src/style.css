@@ -382,3 +382,11 @@ body {
   background-color: var(--primary-teal);
   color: white;
 }
+@media (max-width: 576px) {
+  .header-name {
+    font-size: 76px;
+  }
+  .about-header {
+    font-size: 32px;
+  }
+}
