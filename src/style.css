@@ -287,7 +287,8 @@ body {
   color: var(--tertiary-blue);
 }
 
-.project-summary-header {
+.project-summary-header,
+.work-together-header {
   font-family: var(--main-font);
   font-size: 48px;
   text-align: center;
@@ -297,6 +298,7 @@ body {
 .project-summary-description {
   font-family: var(--secondary-font);
   font-size: 24px;
+  color: var(--tertiary-blue);
 }
 
 .project-summary-highlighted {
@@ -336,4 +338,47 @@ body {
   color: var(--tertiary-blue);
   text-align: center;
   padding-top: 60px;
+}
+
+.work-together {
+  background-color: var(--secondary-yellow);
+  border: double var(--tertiary-blue);
+  border-width: 10px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+.work-together-image {
+  width: 90%;
+  border-radius: 8%;
+  border: 5px solid var(--tertiary-blue);
+  background: whitesmoke;
+  margin: 15px;
+  padding: 5px;
+}
+
+.work-together-description {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  color: var(--tertiary-blue);
+  font-weight: bold;
+}
+
+.work-together-links a {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--tertiary-blue);
+  border: 1px solid var(--primary-teal);
+  padding: 15px;
+  background-color: whitesmoke;
+}
+
+.work-together-links:visited a {
+  text-decoration: none;
+  color: var(--tertiary-blue);
+}
+
+.work-together-links a:hover {
+  background-color: var(--primary-teal);
+  color: white;
 }
